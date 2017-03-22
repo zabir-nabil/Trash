@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admit Card System</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+ <div id="top">
+ <span id="logo"><b>Admit Card System</b></span>
+ </div>
+      <form action="#" method="post">
+      
+        <h1>Give your information</h1>
+        
+        <fieldset>
+          <legend><span class="number"></span>Primary Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+          
+    <label for="name">College:</label>
+          <input type="text" id="name" name="user_name">
+          
+		      <label for="name">Board:</label>
+          <input type="text" id="name" name="user_name">
+          
+             <label for="name">H.S.C Roll no:</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label>Gender:</label>
+          <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Male</label><br>
+          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Female</label>
+        </fieldset>
+        
+        <fieldset>
+          <legend><span class="number"></span>Admission</legend>
+		            <label for="univ">Registration number:</label>
+          <input type="text" id="univ" name="univ">
+          <label for="univ">Roll no:</label>
+          <input type="text" id="univ" name="univ">
+		  <label for="univ">H.S.C. GPA:</label>
+          <input type="text" id="univ" name="univ">
+            <label for="univ">S.S.C. GPA:</label>
+          <input type="text" id="univ" name="univ">
+        </fieldset>
+        <fieldset>
+        <label for="job">Subject Choice:</label>
+        <select id="job" name="user_job">
+          <optgroup label="Electrical Faculty">
+            <option value="frontend_developer">EEE</option>
+            <option value="php_developor">CSE</option>
+            <option value="python_developer">ECE</option>
+            <option value="rails_developer">BME</option>
+          </optgroup>
+          <optgroup label="Mechanical Faculty">
+            <option value="Android_developer">ME</option>
+            <option value="iOS_developer">IPE</option>
+            <option value="mobile_designer">BECM</option>
+          </optgroup>
+          <optgroup label="Civil Faculty">
+            <option value="business_owner">Civil</option>
+            <option value="freelancer">Architecture</option>
+          </optgroup>
+          <optgroup label="Others">
+            <option value="secretary">URP</option>
+          </optgroup>
+        </select>
+        
+          <label>Extra info:</label>
+          <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Migration on</label><br>
+            <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Messing on</label><br>
+
+        
+        </fieldset>
+        <button id="regb" type="submit" onclick="location.href='profile.html'">Generate Admit Card</button>
+      </form>
+      
+    </body>
+	
+	<footer>
+	&copy; Developed by Monirul Islam.
+	</footer>
+	
+</html>
