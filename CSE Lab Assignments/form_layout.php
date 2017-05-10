@@ -1,6 +1,13 @@
 <!DOCTYPE HTML>  
 <html>
 <head>
+<style>
+body{
+	background-color:cyan;
+	padding:30px;
+	margin:30px;
+}
+</style>
 </head>
 <body>  
 

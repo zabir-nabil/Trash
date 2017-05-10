@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cz"><head><title>Khokon's online cloth shop</title>
+
+<link rel="stylesheet" type="text/css" href="default.css" title="default">
+<script>
+function abc()
+{
+var arr=new Array("usepics/neck.jpg","usepics/ban7.jpg","usepics/ban5.jpg","usepics/ban1.jpg","usepics/akkriti-banner.jpg");
+var ind=eval(document.f1.h1.value);
+document.img.src=arr[ind];
+document.f1.h1.value=ind+1;
+if(document.f1.h1.value==5)
+{
+document.f1.h1.value=0;
+}
+}
+setInterval("abc()",2000);
+</script>
+</head>
+
+
+<body>
+<div id="WholePage">
+<div id="Inner">
+<div id="Container" style="border:groove;border-color:#00CCFF">
+<div id="Head">
+<div id="Head_left">
+<div id="Leaf_top"><img src="img/shop3.jpg" width="324" /></div>
+<div id="Leaf_bottom"> <a class="registration" href="register.html">REGISTRATION</a> <a class="log-in" href="login.html">LOG IN</a> </div>
+</div>
+<div id="Head_right">
+<div id="Logo">
+<div id="Name"><span class="blue">K</span><span>hokon's</span>&nbsp;<span class="blue">S</span><span>hop</span> </div>
+<div id="Informations">Latest trends in Fashion</div>
+</div>
+<div id="Top_menu"> 
+<a class="contact" href="contact.html"><span>CONTACT</span></a>
+<a class="help" href="about.html"><span>HELP</span></a>
+<a class="home" href="index.html"><span>HOME</span></a>
+</div>
+</div>
+</div>
+<div id="CentralPart">
+<div id="LeftPart">
+<div id="Menu">
+<div id="Menu_header">
+
+<div class="menu_header_right"> </div>
+
+<div class="menu_header_left"> <span class="menu_text"><a href="men.html">MEN</a></span>
+</div>
+<div class="menu_header_right"> </div>
+</div>
+<div id="Menu_content"> <a class="menu_item" href="tshirt.html"><span>Casual Shirts</span></a><br>
+<a class="menu_item" href="men.html"><span>Jeans</span></a><br>
+<a class="menu_item" href="tshirt.html"><span>T-shirts
+</span></a><br>
+
+
+</div>
+
+<div class="menu_header_left"> <span class="menu_text"><a href="women1.html">WOMEN</a></span>
+</div>
+<div class="menu_header_right"> </div>
+<div id="Menu_content"> 
+<a class="menu_item" href="woman.html"><span>Dresses</span></a><br>
+<a class="menu_item" href="woman.html"><span>Office Wear</span></a><br>
+<a class="menu_item" href="woman1.html"><span>Artificial Jewellery</span></a><br>
+</div>
+
+<div class="menu_header_left"> <span class="menu_text"><a href="kids1.html">KIDS</a></span>
+</div>
+<div class="menu_header_right"> </div>
+<div id="Menu_content">
+<a class="menu_item" href="kids1.html"><span>Girls Apparel</span></a><br>
+<a class="menu_item" href="kids1.html"><span>Boys Apparel</span></a><br>
+<a class="menu_item" href="kids1.html"><span>Kids Toys</span></a><br>
+
+</div>
+</div>
+<img src="usepics/4.jpg" width="228" height="183" /></div>
+
+<div id="RightPart">
+  <div id="Page"><img src="usepics/akkriti-banner.jpg" alt="" width="669" height="210" name="img"/>
+  <form name="f1">
+  <input type="hidden" name="h1" value="0" />
+  </form>
+    <div id="Page_top">
+  <p> <marquee behavior="scroll" direction="left" onmouseover="stop()" onmouseout="start()"><font color="#FFFF99"><h3>30%off on all summer wear...Hurry!!!</h3></font><font color="#00CC99"><h4>Enjoy the pleasure of shopping with Fashion Shop...</h4></font></marquee><br>
+
+  </p>
+
+ 
+  </div>
+  <div id="Page_center">
+ 
+  </div>
+</div></div>
+<div class="cleaner"></div>
+</div>
+<div id="Bottom">
+<p style="text-align:center;"><b>Copyright</b> Khokon's online cloth shop</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>
